@@ -39,8 +39,7 @@ state = { authenticated: null };
       </div>
     ) : (
       <div>
-        <p className="lead">If you are a Staff Memeber, please get your credentials from
-        your supervisor</p>
+        <p className="lead">This is a placeholder</p>
         <button className="btn btn-dark btn-lg" onClick={this.login}>Login</button>
       </div>
     );
